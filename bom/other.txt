@@ -1,0 +1,11 @@
+12.5mm objective:
+search on ebay for 25mm c-mount CCTV lens ... Should cost about < $15
+
+condensor:
+https://www.aliexpress.com/item/Cree-XPG-lens-Diameter-23-5mm-Belt-holder-5-degrees-LED-Lens-glass-Condenser-lens/1322969782.html?spm=a2g0s.9042311.0.0.MU73Ll
+
+LCD:
+(search on ebay for LCD 64x32) e.g.
+GLS Neu LCD-VATN 64x32 3V ST7567A I2C 15x12x2mm [LCD-AG-064032V-VIW W/KKK-E6]
+
+
