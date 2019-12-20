@@ -1,7 +1,7 @@
 vcp/src/usb_endp.o: ../vcp/src/usb_endp.c \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_lib.h \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/vcp/inc/hw_config.h \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/vcp/inc/platform_config.h \
+ /home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_lib.h \
+ /home/ne23kaj2/git/diy-projector-clock/src/vcp/inc/hw_config.h \
+ /home/ne23kaj2/git/diy-projector-clock/src/vcp/inc/platform_config.h \
  ../system/include/cmsis/stm32f10x.h ../system/include/cmsis/core_cm3.h \
  ../system/include/cmsis/core_cmInstr.h \
  ../system/include/cmsis/cmsis_gcc.h \
@@ -30,27 +30,27 @@ vcp/src/usb_endp.o: ../vcp/src/usb_endp.c \
  ../system/include/stm32f1-stdperiph/stm32f10x_usart.h \
  ../system/include/stm32f1-stdperiph/stm32f10x_wwdg.h \
  ../system/include/stm32f1-stdperiph/misc.h \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_type.h \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/vcp/inc/usb_conf.h \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_type.h \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_regs.h \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_def.h \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_core.h \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_init.h \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_sil.h \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_mem.h \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_int.h \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/vcp/inc/usb_desc.h \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_mem.h \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/vcp/inc/usb_istr.h \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/vcp/inc/usb_conf.h \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/vcp/inc/usb_pwr.h
+ /home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_type.h \
+ /home/ne23kaj2/git/diy-projector-clock/src/vcp/inc/usb_conf.h \
+ /home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_type.h \
+ /home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_regs.h \
+ /home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_def.h \
+ /home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_core.h \
+ /home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_init.h \
+ /home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_sil.h \
+ /home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_mem.h \
+ /home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_int.h \
+ /home/ne23kaj2/git/diy-projector-clock/src/vcp/inc/usb_desc.h \
+ /home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_mem.h \
+ /home/ne23kaj2/git/diy-projector-clock/src/vcp/inc/usb_istr.h \
+ /home/ne23kaj2/git/diy-projector-clock/src/vcp/inc/usb_conf.h \
+ /home/ne23kaj2/git/diy-projector-clock/src/vcp/inc/usb_pwr.h
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_lib.h:
+/home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_lib.h:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/vcp/inc/hw_config.h:
+/home/ne23kaj2/git/diy-projector-clock/src/vcp/inc/hw_config.h:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/vcp/inc/platform_config.h:
+/home/ne23kaj2/git/diy-projector-clock/src/vcp/inc/platform_config.h:
 
 ../system/include/cmsis/stm32f10x.h:
 
@@ -112,32 +112,32 @@ vcp/src/usb_endp.o: ../vcp/src/usb_endp.c \
 
 ../system/include/stm32f1-stdperiph/misc.h:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_type.h:
+/home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_type.h:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/vcp/inc/usb_conf.h:
+/home/ne23kaj2/git/diy-projector-clock/src/vcp/inc/usb_conf.h:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_type.h:
+/home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_type.h:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_regs.h:
+/home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_regs.h:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_def.h:
+/home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_def.h:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_core.h:
+/home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_core.h:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_init.h:
+/home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_init.h:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_sil.h:
+/home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_sil.h:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_mem.h:
+/home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_mem.h:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_int.h:
+/home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_int.h:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/vcp/inc/usb_desc.h:
+/home/ne23kaj2/git/diy-projector-clock/src/vcp/inc/usb_desc.h:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/STM32_USB-FS-Device_Driver/inc/usb_mem.h:
+/home/ne23kaj2/git/diy-projector-clock/src/STM32_USB-FS-Device_Driver/inc/usb_mem.h:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/vcp/inc/usb_istr.h:
+/home/ne23kaj2/git/diy-projector-clock/src/vcp/inc/usb_istr.h:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/vcp/inc/usb_conf.h:
+/home/ne23kaj2/git/diy-projector-clock/src/vcp/inc/usb_conf.h:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/vcp/inc/usb_pwr.h:
+/home/ne23kaj2/git/diy-projector-clock/src/vcp/inc/usb_pwr.h:

@@ -230,6 +230,7 @@ int main(int argc, char* argv[]) {
 		if (ticks - lastticks > 500) {
 			lastticks = ticks;
 			if (mode != ADJUST_TIME && mode != ADJUST_DATE) {
+				rtc_checkUpdateDate(&RTC_TimeStructure, &RTC_DateStructure);
 				rtc_getTime24(&RTC_TimeStructure);
 				rtc_getDate(&RTC_DateStructure);
 			}

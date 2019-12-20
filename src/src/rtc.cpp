@@ -250,7 +250,7 @@ void rtc_checkUpdateDate(RTC_TimeTypeDef_H24* time, RTC_DateTypeDef* date) {
 		RTC_WaitForLastTask();
 		rtc_getTime24(time); // should be 00:00:00
 
-		switch (date->RTC_Date) {
+		switch (date->RTC_Month) {
 		case 1:
 		case 3:
 		case 5:

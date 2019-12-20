@@ -5,6 +5,7 @@
 ELF_SRCS := 
 C_UPPER_SRCS := 
 CXX_SRCS := 
+CL_SRCS := 
 C++_SRCS := 
 OBJ_SRCS := 
 CC_SRCS := 
@@ -15,6 +16,7 @@ S_UPPER_SRCS :=
 O_SRCS := 
 CC_DEPS := 
 C++_DEPS := 
+CL_DEPS := 
 OBJS := 
 C_UPPER_DEPS := 
 CXX_DEPS := 

@@ -28,80 +28,80 @@ src/json.o: ../src/json.cpp ../system/include/cmsis/stm32f10x.h \
  ../system/include/stm32f1-stdperiph/stm32f10x_wwdg.h \
  ../system/include/stm32f1-stdperiph/misc.h ../include/ArduinoJson.h \
  ../include/ArduinoJson.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/DynamicJsonBuffer.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonBufferBase.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/JsonParser.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../JsonBuffer.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../JsonVariant.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Data/JsonVariantContent.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Data/JsonFloat.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Data/../Configuration.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Data/JsonInteger.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Data/JsonVariantDefault.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Data/JsonVariantType.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../JsonVariantBase.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Data/JsonVariantAs.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Polyfills/attributes.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/JsonPrintable.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../TypeTraits/EnableIf.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/DummyPrint.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/DynamicStringBuilder.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/StringTraits.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/../TypeTraits/IsBaseOf.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/../TypeTraits/IsChar.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/../TypeTraits/IsSame.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/../TypeTraits/RemoveReference.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/ArduinoStream.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/CharPointer.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/FlashString.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/StdStream.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/StdString.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/IndentedPrint.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/JsonSerializer.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/JsonWriter.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../Data/Encoding.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../Polyfills/math.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../Polyfills/normalize.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../TypeTraits/FloatTraits.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/Prettyfier.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/StaticStringBuilder.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/StreamPrintAdapter.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../RawJson.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../TypeTraits/IsFloatingPoint.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../TypeTraits/IsIntegral.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../TypeTraits/IsSignedIntegral.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../TypeTraits/IsUnsignedIntegral.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../TypeTraits/RemoveConst.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../TypeTraits/IsArray.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../TypeTraits/IsConst.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/StringWriter.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonArray.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Data/JsonBufferAllocated.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Data/List.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Data/ListConstIterator.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Data/ListNode.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Data/ListIterator.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Data/ReferenceType.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Data/ValueSetter.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonObject.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonPair.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonVariantComparisons.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Data/JsonVariantComparer.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/StaticJsonBuffer.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/JsonParserImpl.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/Comments.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonArrayImpl.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonArraySubscript.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonBufferImpl.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonObjectImpl.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonObjectSubscript.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonVariantImpl.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Polyfills/isFloat.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Polyfills/./ctype.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Polyfills/isInteger.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Polyfills/parseFloat.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Polyfills/parseInteger.hpp \
- /home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Serialization/JsonSerializerImpl.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/DynamicJsonBuffer.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonBufferBase.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/JsonParser.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../JsonBuffer.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../JsonVariant.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Data/JsonVariantContent.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Data/JsonFloat.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Data/../Configuration.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Data/JsonInteger.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Data/JsonVariantDefault.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Data/JsonVariantType.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../JsonVariantBase.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Data/JsonVariantAs.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Polyfills/attributes.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/JsonPrintable.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../TypeTraits/EnableIf.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/DummyPrint.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/DynamicStringBuilder.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/StringTraits.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/../TypeTraits/IsBaseOf.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/../TypeTraits/IsChar.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/../TypeTraits/IsSame.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/../TypeTraits/RemoveReference.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/ArduinoStream.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/CharPointer.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/FlashString.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/StdStream.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/StdString.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/IndentedPrint.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/JsonSerializer.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/JsonWriter.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../Data/Encoding.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../Polyfills/math.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../Polyfills/normalize.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../TypeTraits/FloatTraits.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/Prettyfier.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/StaticStringBuilder.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/StreamPrintAdapter.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../RawJson.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../TypeTraits/IsFloatingPoint.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../TypeTraits/IsIntegral.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../TypeTraits/IsSignedIntegral.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../TypeTraits/IsUnsignedIntegral.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../TypeTraits/RemoveConst.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../TypeTraits/IsArray.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../TypeTraits/IsConst.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/StringWriter.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonArray.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Data/JsonBufferAllocated.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Data/List.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Data/ListConstIterator.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Data/ListNode.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Data/ListIterator.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Data/ReferenceType.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Data/ValueSetter.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonObject.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonPair.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonVariantComparisons.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Data/JsonVariantComparer.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/StaticJsonBuffer.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/JsonParserImpl.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/Comments.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonArrayImpl.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonArraySubscript.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonBufferImpl.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonObjectImpl.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonObjectSubscript.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonVariantImpl.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Polyfills/isFloat.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Polyfills/./ctype.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Polyfills/isInteger.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Polyfills/parseFloat.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Polyfills/parseInteger.hpp \
+ /home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Serialization/JsonSerializerImpl.hpp \
  ../include/rtc.h ../include/main.h
 
 ../system/include/cmsis/stm32f10x.h:
@@ -168,153 +168,153 @@ src/json.o: ../src/json.cpp ../system/include/cmsis/stm32f10x.h \
 
 ../include/ArduinoJson.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/DynamicJsonBuffer.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/DynamicJsonBuffer.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonBufferBase.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonBufferBase.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/JsonParser.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/JsonParser.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../JsonBuffer.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../JsonBuffer.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../JsonVariant.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../JsonVariant.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Data/JsonVariantContent.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Data/JsonVariantContent.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Data/JsonFloat.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Data/JsonFloat.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Data/../Configuration.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Data/../Configuration.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Data/JsonInteger.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Data/JsonInteger.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Data/JsonVariantDefault.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Data/JsonVariantDefault.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Data/JsonVariantType.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Data/JsonVariantType.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../JsonVariantBase.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../JsonVariantBase.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Data/JsonVariantAs.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Data/JsonVariantAs.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Polyfills/attributes.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Polyfills/attributes.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/JsonPrintable.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/JsonPrintable.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../TypeTraits/EnableIf.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../TypeTraits/EnableIf.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/DummyPrint.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/DummyPrint.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/DynamicStringBuilder.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/DynamicStringBuilder.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/StringTraits.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/StringTraits.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/../TypeTraits/IsBaseOf.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/../TypeTraits/IsBaseOf.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/../TypeTraits/IsChar.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/../TypeTraits/IsChar.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/../TypeTraits/IsSame.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/../TypeTraits/IsSame.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/../TypeTraits/RemoveReference.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/../TypeTraits/RemoveReference.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/ArduinoStream.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/ArduinoStream.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/CharPointer.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/CharPointer.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/FlashString.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/FlashString.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/StdStream.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/StdStream.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../StringTraits/StdString.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../StringTraits/StdString.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/IndentedPrint.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/IndentedPrint.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/JsonSerializer.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/JsonSerializer.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/JsonWriter.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/JsonWriter.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../Data/Encoding.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../Data/Encoding.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../Polyfills/math.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../Polyfills/math.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../Polyfills/normalize.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../Polyfills/normalize.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/../TypeTraits/FloatTraits.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/../TypeTraits/FloatTraits.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/Prettyfier.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/Prettyfier.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/StaticStringBuilder.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/StaticStringBuilder.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../Serialization/StreamPrintAdapter.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../Serialization/StreamPrintAdapter.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../RawJson.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../RawJson.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../TypeTraits/IsFloatingPoint.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../TypeTraits/IsFloatingPoint.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../TypeTraits/IsIntegral.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../TypeTraits/IsIntegral.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../TypeTraits/IsSignedIntegral.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../TypeTraits/IsSignedIntegral.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../TypeTraits/IsUnsignedIntegral.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../TypeTraits/IsUnsignedIntegral.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../TypeTraits/RemoveConst.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../TypeTraits/RemoveConst.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../TypeTraits/IsArray.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../TypeTraits/IsArray.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/../TypeTraits/IsConst.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/../TypeTraits/IsConst.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/StringWriter.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/StringWriter.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonArray.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonArray.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Data/JsonBufferAllocated.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Data/JsonBufferAllocated.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Data/List.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Data/List.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Data/ListConstIterator.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Data/ListConstIterator.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Data/ListNode.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Data/ListNode.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Data/ListIterator.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Data/ListIterator.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Data/ReferenceType.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Data/ReferenceType.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Data/ValueSetter.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Data/ValueSetter.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonObject.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonObject.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonPair.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonPair.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonVariantComparisons.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonVariantComparisons.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Data/JsonVariantComparer.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Data/JsonVariantComparer.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/StaticJsonBuffer.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/StaticJsonBuffer.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/JsonParserImpl.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/JsonParserImpl.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Deserialization/Comments.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Deserialization/Comments.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonArrayImpl.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonArrayImpl.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonArraySubscript.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonArraySubscript.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonBufferImpl.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonBufferImpl.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonObjectImpl.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonObjectImpl.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonObjectSubscript.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonObjectSubscript.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/JsonVariantImpl.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/JsonVariantImpl.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Polyfills/isFloat.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Polyfills/isFloat.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Polyfills/./ctype.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Polyfills/./ctype.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Polyfills/isInteger.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Polyfills/isInteger.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Polyfills/parseFloat.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Polyfills/parseFloat.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Polyfills/parseInteger.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Polyfills/parseInteger.hpp:
 
-/home/ne23kaj2/btsync/work/cpp-neon/beamer1/ArduinoJson/Serialization/JsonSerializerImpl.hpp:
+/home/ne23kaj2/git/diy-projector-clock/src/ArduinoJson/Serialization/JsonSerializerImpl.hpp:
 
 ../include/rtc.h:
 
