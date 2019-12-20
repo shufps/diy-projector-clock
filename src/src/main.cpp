@@ -472,8 +472,11 @@ int main(int argc, char* argv[]) {
 				lcd_UG_PutStringf(37 - xofs, 2, "%02d", RTC_TimeStructure.RTC_Minutes);
 				int weekday = rtc_weekday(RTC_DateStructure.RTC_Year + 2000, RTC_DateStructure.RTC_Month,
 						RTC_DateStructure.RTC_Date);
-				char dayNames[][12] = { "Mo", "Di", "Mi", "Do", "Fr", "Sa", "So" };
-				lcd_putString5x7f(15, 18, "%s %02d", dayNames[weekday], RTC_DateStructure.RTC_Date);
+				//char dayNames[][12] = { "Mo", "Di", "Mi", "Do", "Fr", "Sa", "So" };
+				char dayNames[][12] = { "H", "K", "Sze", "Cs", "P", "Szo", "V" };
+				int xpos = (64 - (strlen(dayNames[weekday]) + 3) * 7)/2;
+				lcd_putString5x7f(xpos /*15*/, 18, "%s %02d", dayNames[weekday], RTC_DateStructure.RTC_Date);
+
 				break;
 			}
 			case DISPLAY_ADJ_TIMEDATE:

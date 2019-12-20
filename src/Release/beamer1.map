@@ -1637,10 +1637,10 @@ END GROUP
 
 .inits          0x0000000008000254       0x28
                 0x0000000008000254                __data_regions_array_start = .
-                0x0000000008000254        0x4 LONG 0x800baec LOADADDR (.data)
+                0x0000000008000254        0x4 LONG 0x800bafc LOADADDR (.data)
                 0x0000000008000258        0x4 LONG 0x20000000 ADDR (.data)
                 0x000000000800025c        0x4 LONG 0x20001034 (ADDR (.data) + SIZEOF (.data))
-                0x0000000008000260        0x4 LONG 0x800baec LOADADDR (.data_CCMRAM)
+                0x0000000008000260        0x4 LONG 0x800bafc LOADADDR (.data_CCMRAM)
                 0x0000000008000264        0x4 LONG 0x0 ADDR (.data_CCMRAM)
                 0x0000000008000268        0x4 LONG 0x0 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
                 0x000000000800026c                __data_regions_array_end = .
@@ -1672,7 +1672,7 @@ END GROUP
 .flashtext
  *(.flashtext .flashtext.*)
 
-.text           0x0000000008000280     0xb864
+.text           0x0000000008000280     0xb874
  *(.text .text.*)
  .text.IntToUnicode
                 0x0000000008000280       0x2a ./vcp/src/hw_config.o
@@ -2038,594 +2038,594 @@ END GROUP
                 0x00000000080024bc       0x18 ./src/main.o
                 0x00000000080024bc                switchPressed()
  .text.startup.main
-                0x00000000080024d4      0x6ac ./src/main.o
+                0x00000000080024d4      0x6bc ./src/main.o
                 0x00000000080024d4                main
  .text._Z18rotenc_irq_processv
-                0x0000000008002b80       0x50 ./src/rotenc.o
-                0x0000000008002b80                rotenc_irq_process()
+                0x0000000008002b90       0x50 ./src/rotenc.o
+                0x0000000008002b90                rotenc_irq_process()
  .text._Z11rotenc_initv
-                0x0000000008002bd0       0x3c ./src/rotenc.o
-                0x0000000008002bd0                rotenc_init()
+                0x0000000008002be0       0x3c ./src/rotenc.o
+                0x0000000008002be0                rotenc_init()
  .text._Z12rotenc_read1v
-                0x0000000008002c0c       0x14 ./src/rotenc.o
-                0x0000000008002c0c                rotenc_read1()
+                0x0000000008002c1c       0x14 ./src/rotenc.o
+                0x0000000008002c1c                rotenc_read1()
  .text._Z17rtc_configurationh
-                0x0000000008002c20       0x54 ./src/rtc.o
-                0x0000000008002c20                rtc_configuration(unsigned char)
+                0x0000000008002c30       0x54 ./src/rtc.o
+                0x0000000008002c30                rtc_configuration(unsigned char)
  .text.rtc_isLeapYear
-                0x0000000008002c74       0x30 ./src/rtc.o
-                0x0000000008002c74                rtc_isLeapYear
+                0x0000000008002c84       0x30 ./src/rtc.o
+                0x0000000008002c84                rtc_isLeapYear
  .text._Z16rtc_daysPerMonthii
-                0x0000000008002ca4       0x44 ./src/rtc.o
-                0x0000000008002ca4                rtc_daysPerMonth(int, int)
+                0x0000000008002cb4       0x44 ./src/rtc.o
+                0x0000000008002cb4                rtc_daysPerMonth(int, int)
  .text.rtc_adjustDate
-                0x0000000008002ce8       0x5a ./src/rtc.o
-                0x0000000008002ce8                rtc_adjustDate
+                0x0000000008002cf8       0x5a ./src/rtc.o
+                0x0000000008002cf8                rtc_adjustDate
  .text.rtc_setTime24
-                0x0000000008002d42       0x28 ./src/rtc.o
-                0x0000000008002d42                rtc_setTime24
+                0x0000000008002d52       0x28 ./src/rtc.o
+                0x0000000008002d52                rtc_setTime24
  .text.rtc_getTime24
-                0x0000000008002d6a       0x34 ./src/rtc.o
-                0x0000000008002d6a                rtc_getTime24
+                0x0000000008002d7a       0x34 ./src/rtc.o
+                0x0000000008002d7a                rtc_getTime24
  .text.rtc_setDate
-                0x0000000008002d9e       0x20 ./src/rtc.o
-                0x0000000008002d9e                rtc_setDate
+                0x0000000008002dae       0x20 ./src/rtc.o
+                0x0000000008002dae                rtc_setDate
  .text.rtc_getDate
-                0x0000000008002dbe       0x1c ./src/rtc.o
-                0x0000000008002dbe                rtc_getDate
+                0x0000000008002dce       0x1c ./src/rtc.o
+                0x0000000008002dce                rtc_getDate
  .text.rtc_adjustTime
-                0x0000000008002dda       0x3c ./src/rtc.o
-                0x0000000008002dda                rtc_adjustTime
- *fill*         0x0000000008002e16        0x2 
+                0x0000000008002dea       0x3c ./src/rtc.o
+                0x0000000008002dea                rtc_adjustTime
+ *fill*         0x0000000008002e26        0x2 
  .text.rtc_checkUpdateDate
-                0x0000000008002e18       0xdc ./src/rtc.o
-                0x0000000008002e18                rtc_checkUpdateDate
+                0x0000000008002e28       0xdc ./src/rtc.o
+                0x0000000008002e28                rtc_checkUpdateDate
  .text.rtc_weekday
-                0x0000000008002ef4       0x66 ./src/rtc.o
-                0x0000000008002ef4                rtc_weekday
- *fill*         0x0000000008002f5a        0x2 
+                0x0000000008002f04       0x66 ./src/rtc.o
+                0x0000000008002f04                rtc_weekday
+ *fill*         0x0000000008002f6a        0x2 
  .text.rtc_init
-                0x0000000008002f5c       0x78 ./src/rtc.o
-                0x0000000008002f5c                rtc_init
+                0x0000000008002f6c       0x78 ./src/rtc.o
+                0x0000000008002f6c                rtc_init
  .text._Z10timer_initv
-                0x0000000008002fd4       0x80 ./src/tim.o
-                0x0000000008002fd4                timer_init()
- .text.UG_Init  0x0000000008003054       0x68 ./src/ugui.o
-                0x0000000008003054                UG_Init
+                0x0000000008002fe4       0x80 ./src/tim.o
+                0x0000000008002fe4                timer_init()
+ .text.UG_Init  0x0000000008003064       0x68 ./src/ugui.o
+                0x0000000008003064                UG_Init
  .text.UG_FontSelect
-                0x00000000080030bc       0x18 ./src/ugui.o
-                0x00000000080030bc                UG_FontSelect
+                0x00000000080030cc       0x18 ./src/ugui.o
+                0x00000000080030cc                UG_FontSelect
  .text.UG_FillFrame
-                0x00000000080030d4       0x78 ./src/ugui.o
-                0x00000000080030d4                UG_FillFrame
+                0x00000000080030e4       0x78 ./src/ugui.o
+                0x00000000080030e4                UG_FillFrame
  .text.UG_FillScreen
-                0x000000000800314c       0x28 ./src/ugui.o
-                0x000000000800314c                UG_FillScreen
+                0x000000000800315c       0x28 ./src/ugui.o
+                0x000000000800315c                UG_FillScreen
  .text.UG_DrawLine
-                0x0000000008003174      0x124 ./src/ugui.o
-                0x0000000008003174                UG_DrawLine
+                0x0000000008003184      0x124 ./src/ugui.o
+                0x0000000008003184                UG_DrawLine
  .text.UG_SetForecolor
-                0x0000000008003298        0xc ./src/ugui.o
-                0x0000000008003298                UG_SetForecolor
+                0x00000000080032a8        0xc ./src/ugui.o
+                0x00000000080032a8                UG_SetForecolor
  .text.UG_SetBackcolor
-                0x00000000080032a4        0xc ./src/ugui.o
-                0x00000000080032a4                UG_SetBackcolor
+                0x00000000080032b4        0xc ./src/ugui.o
+                0x00000000080032b4                UG_SetBackcolor
  .text._UG_PutChar
-                0x00000000080032b0      0x350 ./src/ugui.o
-                0x00000000080032b0                _UG_PutChar
+                0x00000000080032c0      0x350 ./src/ugui.o
+                0x00000000080032c0                _UG_PutChar
  .text.UG_PutChar
-                0x0000000008003600       0x1c ./src/ugui.o
-                0x0000000008003600                UG_PutChar
+                0x0000000008003610       0x1c ./src/ugui.o
+                0x0000000008003610                UG_PutChar
  .text.UG_PutString
-                0x000000000800361c       0x88 ./src/ugui.o
-                0x000000000800361c                UG_PutString
+                0x000000000800362c       0x88 ./src/ugui.o
+                0x000000000800362c                UG_PutString
  .text._UG_PutText
-                0x00000000080036a4      0x130 ./src/ugui.o
-                0x00000000080036a4                _UG_PutText
+                0x00000000080036b4      0x130 ./src/ugui.o
+                0x00000000080036b4                _UG_PutText
  .text._UG_ProcessTouchData
-                0x00000000080037d4       0xbc ./src/ugui.o
-                0x00000000080037d4                _UG_ProcessTouchData
+                0x00000000080037e4       0xbc ./src/ugui.o
+                0x00000000080037e4                _UG_ProcessTouchData
  .text._UG_UpdateObjects
-                0x0000000008003890       0x50 ./src/ugui.o
-                0x0000000008003890                _UG_UpdateObjects
+                0x00000000080038a0       0x50 ./src/ugui.o
+                0x00000000080038a0                _UG_UpdateObjects
  .text._UG_HandleEvents
-                0x00000000080038e0       0x60 ./src/ugui.o
-                0x00000000080038e0                _UG_HandleEvents
+                0x00000000080038f0       0x60 ./src/ugui.o
+                0x00000000080038f0                _UG_HandleEvents
  .text._UG_DrawObjectFrame
-                0x0000000008003940      0x12a ./src/ugui.o
-                0x0000000008003940                _UG_DrawObjectFrame
- *fill*         0x0000000008003a6a        0x2 
+                0x0000000008003950      0x12a ./src/ugui.o
+                0x0000000008003950                _UG_DrawObjectFrame
+ *fill*         0x0000000008003a7a        0x2 
  .text._UG_WindowDrawTitle
-                0x0000000008003a6c       0xd8 ./src/ugui.o
-                0x0000000008003a6c                _UG_WindowDrawTitle
+                0x0000000008003a7c       0xd8 ./src/ugui.o
+                0x0000000008003a7c                _UG_WindowDrawTitle
  .text._UG_WindowUpdate
-                0x0000000008003b44       0xcc ./src/ugui.o
-                0x0000000008003b44                _UG_WindowUpdate
+                0x0000000008003b54       0xcc ./src/ugui.o
+                0x0000000008003b54                _UG_WindowUpdate
  .text.UG_Update
-                0x0000000008003c10       0xa8 ./src/ugui.o
-                0x0000000008003c10                UG_Update
+                0x0000000008003c20       0xa8 ./src/ugui.o
+                0x0000000008003c20                UG_Update
  .text.usb_CDCReceiveCallback
-                0x0000000008003cb8       0x38 ./src/usb.o
-                0x0000000008003cb8                usb_CDCReceiveCallback
+                0x0000000008003cc8       0x38 ./src/usb.o
+                0x0000000008003cc8                usb_CDCReceiveCallback
  .text.usb_transmitString
-                0x0000000008003cf0       0x6e ./src/usb.o
-                0x0000000008003cf0                usb_transmitString
- *fill*         0x0000000008003d5e        0x2 
+                0x0000000008003d00       0x6e ./src/usb.o
+                0x0000000008003d00                usb_transmitString
+ *fill*         0x0000000008003d6e        0x2 
  .text._Z11usb_processv
-                0x0000000008003d60       0x8c ./src/usb.o
-                0x0000000008003d60                usb_process()
+                0x0000000008003d70       0x8c ./src/usb.o
+                0x0000000008003d70                usb_process()
  .text._Z16usb_isConfiguredv
-                0x0000000008003dec       0x10 ./src/usb.o
-                0x0000000008003dec                usb_isConfigured()
+                0x0000000008003dfc       0x10 ./src/usb.o
+                0x0000000008003dfc                usb_isConfigured()
  .text._Z8usb_initv
-                0x0000000008003dfc       0x24 ./src/usb.o
-                0x0000000008003dfc                usb_init()
+                0x0000000008003e0c       0x24 ./src/usb.o
+                0x0000000008003e0c                usb_init()
  .text.Standard_GetConfiguration
-                0x0000000008003e20       0x24 ./STM32_USB-FS-Device_Driver/src/usb_core.o
-                0x0000000008003e20                Standard_GetConfiguration
+                0x0000000008003e30       0x24 ./STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x0000000008003e30                Standard_GetConfiguration
  .text.Standard_GetInterface
-                0x0000000008003e44       0x24 ./STM32_USB-FS-Device_Driver/src/usb_core.o
-                0x0000000008003e44                Standard_GetInterface
+                0x0000000008003e54       0x24 ./STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x0000000008003e54                Standard_GetInterface
  .text.Standard_GetStatus
-                0x0000000008003e68       0x88 ./STM32_USB-FS-Device_Driver/src/usb_core.o
-                0x0000000008003e68                Standard_GetStatus
+                0x0000000008003e78       0x88 ./STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x0000000008003e78                Standard_GetStatus
  .text.DataStageIn
-                0x0000000008003ef0       0xac ./STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x0000000008003f00       0xac ./STM32_USB-FS-Device_Driver/src/usb_core.o
  .text.Standard_SetConfiguration
-                0x0000000008003f9c       0x38 ./STM32_USB-FS-Device_Driver/src/usb_core.o
-                0x0000000008003f9c                Standard_SetConfiguration
+                0x0000000008003fac       0x38 ./STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x0000000008003fac                Standard_SetConfiguration
  .text.Standard_SetInterface
-                0x0000000008003fd4       0x4c ./STM32_USB-FS-Device_Driver/src/usb_core.o
-                0x0000000008003fd4                Standard_SetInterface
+                0x0000000008003fe4       0x4c ./STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x0000000008003fe4                Standard_SetInterface
  .text.Standard_ClearFeature
-                0x0000000008004020       0xcc ./STM32_USB-FS-Device_Driver/src/usb_core.o
-                0x0000000008004020                Standard_ClearFeature
+                0x0000000008004030       0xcc ./STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x0000000008004030                Standard_ClearFeature
  .text.Standard_SetEndPointFeature
-                0x00000000080040ec       0x84 ./STM32_USB-FS-Device_Driver/src/usb_core.o
-                0x00000000080040ec                Standard_SetEndPointFeature
+                0x00000000080040fc       0x84 ./STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x00000000080040fc                Standard_SetEndPointFeature
  .text.Standard_SetDeviceFeature
-                0x0000000008004170       0x24 ./STM32_USB-FS-Device_Driver/src/usb_core.o
-                0x0000000008004170                Standard_SetDeviceFeature
+                0x0000000008004180       0x24 ./STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x0000000008004180                Standard_SetDeviceFeature
  .text.Standard_GetDescriptorData
-                0x0000000008004194       0x1c ./STM32_USB-FS-Device_Driver/src/usb_core.o
-                0x0000000008004194                Standard_GetDescriptorData
+                0x00000000080041a4       0x1c ./STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x00000000080041a4                Standard_GetDescriptorData
  .text.Post0_Process
-                0x00000000080041b0       0x40 ./STM32_USB-FS-Device_Driver/src/usb_core.o
-                0x00000000080041b0                Post0_Process
+                0x00000000080041c0       0x40 ./STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x00000000080041c0                Post0_Process
  .text.Setup0_Process
-                0x00000000080041f0      0x2c4 ./STM32_USB-FS-Device_Driver/src/usb_core.o
-                0x00000000080041f0                Setup0_Process
+                0x0000000008004200      0x2c4 ./STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x0000000008004200                Setup0_Process
  .text.Out0_Process
-                0x00000000080044b4       0xe8 ./STM32_USB-FS-Device_Driver/src/usb_core.o
-                0x00000000080044b4                Out0_Process
+                0x00000000080044c4       0xe8 ./STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x00000000080044c4                Out0_Process
  .text.SetDeviceAddress
-                0x000000000800459c       0x40 ./STM32_USB-FS-Device_Driver/src/usb_core.o
-                0x000000000800459c                SetDeviceAddress
+                0x00000000080045ac       0x40 ./STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x00000000080045ac                SetDeviceAddress
  .text.In0_Process
-                0x00000000080045dc       0x5c ./STM32_USB-FS-Device_Driver/src/usb_core.o
-                0x00000000080045dc                In0_Process
+                0x00000000080045ec       0x5c ./STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x00000000080045ec                In0_Process
  .text.NOP_Process
-                0x0000000008004638        0x2 ./STM32_USB-FS-Device_Driver/src/usb_core.o
-                0x0000000008004638                NOP_Process
- *fill*         0x000000000800463a        0x2 
+                0x0000000008004648        0x2 ./STM32_USB-FS-Device_Driver/src/usb_core.o
+                0x0000000008004648                NOP_Process
+ *fill*         0x000000000800464a        0x2 
  .text.USB_Init
-                0x000000000800463c       0x34 ./STM32_USB-FS-Device_Driver/src/usb_init.o
-                0x000000000800463c                USB_Init
- .text.CTR_LP   0x0000000008004670      0x180 ./STM32_USB-FS-Device_Driver/src/usb_int.o
-                0x0000000008004670                CTR_LP
+                0x000000000800464c       0x34 ./STM32_USB-FS-Device_Driver/src/usb_init.o
+                0x000000000800464c                USB_Init
+ .text.CTR_LP   0x0000000008004680      0x180 ./STM32_USB-FS-Device_Driver/src/usb_int.o
+                0x0000000008004680                CTR_LP
  .text.UserToPMABufferCopy
-                0x00000000080047f0       0x1e ./STM32_USB-FS-Device_Driver/src/usb_mem.o
-                0x00000000080047f0                UserToPMABufferCopy
+                0x0000000008004800       0x1e ./STM32_USB-FS-Device_Driver/src/usb_mem.o
+                0x0000000008004800                UserToPMABufferCopy
  .text.PMAToUserBufferCopy
-                0x000000000800480e       0x24 ./STM32_USB-FS-Device_Driver/src/usb_mem.o
-                0x000000000800480e                PMAToUserBufferCopy
- *fill*         0x0000000008004832        0x2 
- .text.SetISTR  0x0000000008004834        0xc ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x0000000008004834                SetISTR
+                0x000000000800481e       0x24 ./STM32_USB-FS-Device_Driver/src/usb_mem.o
+                0x000000000800481e                PMAToUserBufferCopy
+ *fill*         0x0000000008004842        0x2 
+ .text.SetISTR  0x0000000008004844        0xc ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x0000000008004844                SetISTR
  .text.SetBTABLE
-                0x0000000008004840       0x10 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x0000000008004840                SetBTABLE
+                0x0000000008004850       0x10 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x0000000008004850                SetBTABLE
  .text.SetEPType
-                0x0000000008004850       0x1c ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x0000000008004850                SetEPType
+                0x0000000008004860       0x1c ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x0000000008004860                SetEPType
  .text.SetEPTxStatus
-                0x000000000800486c       0x32 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x000000000800486c                SetEPTxStatus
+                0x000000000800487c       0x32 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x000000000800487c                SetEPTxStatus
  .text.SetEPRxStatus
-                0x000000000800489e       0x32 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x000000000800489e                SetEPRxStatus
+                0x00000000080048ae       0x32 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x00000000080048ae                SetEPRxStatus
  .text.GetEPTxStatus
-                0x00000000080048d0       0x12 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x00000000080048d0                GetEPTxStatus
+                0x00000000080048e0       0x12 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x00000000080048e0                GetEPTxStatus
  .text.SetEPTxValid
-                0x00000000080048e2       0x26 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x00000000080048e2                SetEPTxValid
+                0x00000000080048f2       0x26 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x00000000080048f2                SetEPTxValid
  .text.SetEPRxValid
-                0x0000000008004908       0x26 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x0000000008004908                SetEPRxValid
+                0x0000000008004918       0x26 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x0000000008004918                SetEPRxValid
  .text.ClearEP_KIND
-                0x000000000800492e       0x20 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x000000000800492e                ClearEP_KIND
+                0x000000000800493e       0x20 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x000000000800493e                ClearEP_KIND
  .text.Clear_Status_Out
-                0x000000000800494e        0x4 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x000000000800494e                Clear_Status_Out
+                0x000000000800495e        0x4 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x000000000800495e                Clear_Status_Out
  .text.ClearDTOG_RX
-                0x0000000008004952       0x26 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x0000000008004952                ClearDTOG_RX
+                0x0000000008004962       0x26 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x0000000008004962                ClearDTOG_RX
  .text.ClearDTOG_TX
-                0x0000000008004978       0x26 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x0000000008004978                ClearDTOG_TX
- *fill*         0x000000000800499e        0x2 
+                0x0000000008004988       0x26 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x0000000008004988                ClearDTOG_TX
+ *fill*         0x00000000080049ae        0x2 
  .text.SetEPTxAddr
-                0x00000000080049a0       0x20 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x00000000080049a0                SetEPTxAddr
+                0x00000000080049b0       0x20 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x00000000080049b0                SetEPTxAddr
  .text.SetEPRxAddr
-                0x00000000080049c0       0x20 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x00000000080049c0                SetEPRxAddr
+                0x00000000080049d0       0x20 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x00000000080049d0                SetEPRxAddr
  .text.GetEPTxAddr
-                0x00000000080049e0       0x1c ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x00000000080049e0                GetEPTxAddr
+                0x00000000080049f0       0x1c ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x00000000080049f0                GetEPTxAddr
  .text.GetEPRxAddr
-                0x00000000080049fc       0x1c ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x00000000080049fc                GetEPRxAddr
+                0x0000000008004a0c       0x1c ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x0000000008004a0c                GetEPRxAddr
  .text.SetEPTxCount
-                0x0000000008004a18       0x1c ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x0000000008004a18                SetEPTxCount
+                0x0000000008004a28       0x1c ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x0000000008004a28                SetEPTxCount
  .text.SetEPRxCount
-                0x0000000008004a34       0x40 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x0000000008004a34                SetEPRxCount
+                0x0000000008004a44       0x40 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x0000000008004a44                SetEPRxCount
  .text.GetEPRxCount
-                0x0000000008004a74       0x20 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x0000000008004a74                GetEPRxCount
+                0x0000000008004a84       0x20 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x0000000008004a84                GetEPRxCount
  .text.ByteSwap
-                0x0000000008004a94        0xa ./STM32_USB-FS-Device_Driver/src/usb_regs.o
-                0x0000000008004a94                ByteSwap
- *fill*         0x0000000008004a9e        0x2 
+                0x0000000008004aa4        0xa ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+                0x0000000008004aa4                ByteSwap
+ *fill*         0x0000000008004aae        0x2 
  .text.USB_SIL_Init
-                0x0000000008004aa0       0x20 ./STM32_USB-FS-Device_Driver/src/usb_sil.o
-                0x0000000008004aa0                USB_SIL_Init
- .text.logf     0x0000000008004ac0      0x114 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-sf_log.o)
-                0x0000000008004ac0                logf
- *fill*         0x0000000008004bd4        0x4 
- .text.powf     0x0000000008004bd8      0x3c4 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-sf_pow.o)
-                0x0000000008004bd8                powf
+                0x0000000008004ab0       0x20 ./STM32_USB-FS-Device_Driver/src/usb_sil.o
+                0x0000000008004ab0                USB_SIL_Init
+ .text.logf     0x0000000008004ad0      0x114 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-sf_log.o)
+                0x0000000008004ad0                logf
+ *fill*         0x0000000008004be4        0x4 
+ .text.powf     0x0000000008004be8      0x3c4 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-sf_pow.o)
+                0x0000000008004be8                powf
  .text.with_errnof
-                0x0000000008004f9c       0x10 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-math_errf.o)
- .text.xflowf   0x0000000008004fac       0x28 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-math_errf.o)
+                0x0000000008004fac       0x10 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-math_errf.o)
+ .text.xflowf   0x0000000008004fbc       0x28 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-math_errf.o)
  .text.__math_uflowf
-                0x0000000008004fd4        0x8 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-math_errf.o)
-                0x0000000008004fd4                __math_uflowf
- .text.__math_may_uflowf
-                0x0000000008004fdc        0x8 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-math_errf.o)
-                0x0000000008004fdc                __math_may_uflowf
- .text.__math_oflowf
                 0x0000000008004fe4        0x8 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-math_errf.o)
-                0x0000000008004fe4                __math_oflowf
+                0x0000000008004fe4                __math_uflowf
+ .text.__math_may_uflowf
+                0x0000000008004fec        0x8 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-math_errf.o)
+                0x0000000008004fec                __math_may_uflowf
+ .text.__math_oflowf
+                0x0000000008004ff4        0x8 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-math_errf.o)
+                0x0000000008004ff4                __math_oflowf
  .text.__math_divzerof
-                0x0000000008004fec       0x20 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-math_errf.o)
-                0x0000000008004fec                __math_divzerof
+                0x0000000008004ffc       0x20 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-math_errf.o)
+                0x0000000008004ffc                __math_divzerof
  .text.__math_invalidf
-                0x000000000800500c       0x2c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-math_errf.o)
-                0x000000000800500c                __math_invalidf
- .text          0x0000000008005038      0x378 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
-                0x0000000008005038                __aeabi_drsub
-                0x0000000008005040                __aeabi_dsub
-                0x0000000008005040                __subdf3
-                0x0000000008005044                __adddf3
-                0x0000000008005044                __aeabi_dadd
-                0x00000000080052bc                __aeabi_ui2d
-                0x00000000080052bc                __floatunsidf
-                0x00000000080052dc                __floatsidf
-                0x00000000080052dc                __aeabi_i2d
-                0x0000000008005300                __extendsfdf2
-                0x0000000008005300                __aeabi_f2d
-                0x0000000008005344                __aeabi_ul2d
-                0x0000000008005344                __floatundidf
-                0x0000000008005354                __floatdidf
-                0x0000000008005354                __aeabi_l2d
- .text          0x00000000080053b0      0x424 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
-                0x00000000080053b0                __aeabi_dmul
-                0x00000000080053b0                __muldf3
-                0x0000000008005604                __aeabi_ddiv
-                0x0000000008005604                __divdf3
- .text          0x00000000080057d4      0x110 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
-                0x00000000080057d4                __gtdf2
-                0x00000000080057d4                __gedf2
-                0x00000000080057dc                __ltdf2
-                0x00000000080057dc                __ledf2
-                0x00000000080057e4                __cmpdf2
-                0x00000000080057e4                __eqdf2
-                0x00000000080057e4                __nedf2
-                0x0000000008005860                __aeabi_cdrcmple
-                0x0000000008005870                __aeabi_cdcmple
-                0x0000000008005870                __aeabi_cdcmpeq
-                0x0000000008005880                __aeabi_dcmpeq
-                0x0000000008005894                __aeabi_dcmplt
-                0x00000000080058a8                __aeabi_dcmple
-                0x00000000080058bc                __aeabi_dcmpge
-                0x00000000080058d0                __aeabi_dcmpgt
- .text          0x00000000080058e4       0xa0 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
-                0x00000000080058e4                __aeabi_d2f
-                0x00000000080058e4                __truncdfsf2
- .text          0x0000000008005984      0x21c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
-                0x0000000008005984                __aeabi_frsub
-                0x000000000800598c                __subsf3
-                0x000000000800598c                __aeabi_fsub
-                0x0000000008005990                __aeabi_fadd
-                0x0000000008005990                __addsf3
-                0x0000000008005af0                __aeabi_ui2f
-                0x0000000008005af0                __floatunsisf
-                0x0000000008005af8                __aeabi_i2f
-                0x0000000008005af8                __floatsisf
-                0x0000000008005b14                __floatundisf
-                0x0000000008005b14                __aeabi_ul2f
-                0x0000000008005b24                __floatdisf
-                0x0000000008005b24                __aeabi_l2f
- .text          0x0000000008005ba0      0x2a0 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
-                0x0000000008005ba0                __mulsf3
-                0x0000000008005ba0                __aeabi_fmul
-                0x0000000008005d08                __divsf3
-                0x0000000008005d08                __aeabi_fdiv
- .text          0x0000000008005e40       0x2c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_unordsf2.o)
-                0x0000000008005e40                __aeabi_fcmpun
-                0x0000000008005e40                __unordsf2
- .text          0x0000000008005e6c       0x40 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
-                0x0000000008005e6c                __aeabi_f2uiz
-                0x0000000008005e6c                __fixunssfsi
- .text.__errno  0x0000000008005eac        0xc /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-errno.o)
-                0x0000000008005eac                __errno
+                0x000000000800501c       0x2c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-math_errf.o)
+                0x000000000800501c                __math_invalidf
+ .text          0x0000000008005048      0x378 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
+                0x0000000008005048                __aeabi_drsub
+                0x0000000008005050                __aeabi_dsub
+                0x0000000008005050                __subdf3
+                0x0000000008005054                __adddf3
+                0x0000000008005054                __aeabi_dadd
+                0x00000000080052cc                __aeabi_ui2d
+                0x00000000080052cc                __floatunsidf
+                0x00000000080052ec                __floatsidf
+                0x00000000080052ec                __aeabi_i2d
+                0x0000000008005310                __extendsfdf2
+                0x0000000008005310                __aeabi_f2d
+                0x0000000008005354                __aeabi_ul2d
+                0x0000000008005354                __floatundidf
+                0x0000000008005364                __floatdidf
+                0x0000000008005364                __aeabi_l2d
+ .text          0x00000000080053c0      0x424 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
+                0x00000000080053c0                __aeabi_dmul
+                0x00000000080053c0                __muldf3
+                0x0000000008005614                __aeabi_ddiv
+                0x0000000008005614                __divdf3
+ .text          0x00000000080057e4      0x110 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
+                0x00000000080057e4                __gtdf2
+                0x00000000080057e4                __gedf2
+                0x00000000080057ec                __ltdf2
+                0x00000000080057ec                __ledf2
+                0x00000000080057f4                __cmpdf2
+                0x00000000080057f4                __eqdf2
+                0x00000000080057f4                __nedf2
+                0x0000000008005870                __aeabi_cdrcmple
+                0x0000000008005880                __aeabi_cdcmple
+                0x0000000008005880                __aeabi_cdcmpeq
+                0x0000000008005890                __aeabi_dcmpeq
+                0x00000000080058a4                __aeabi_dcmplt
+                0x00000000080058b8                __aeabi_dcmple
+                0x00000000080058cc                __aeabi_dcmpge
+                0x00000000080058e0                __aeabi_dcmpgt
+ .text          0x00000000080058f4       0xa0 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
+                0x00000000080058f4                __aeabi_d2f
+                0x00000000080058f4                __truncdfsf2
+ .text          0x0000000008005994      0x21c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
+                0x0000000008005994                __aeabi_frsub
+                0x000000000800599c                __subsf3
+                0x000000000800599c                __aeabi_fsub
+                0x00000000080059a0                __aeabi_fadd
+                0x00000000080059a0                __addsf3
+                0x0000000008005b00                __aeabi_ui2f
+                0x0000000008005b00                __floatunsisf
+                0x0000000008005b08                __aeabi_i2f
+                0x0000000008005b08                __floatsisf
+                0x0000000008005b24                __floatundisf
+                0x0000000008005b24                __aeabi_ul2f
+                0x0000000008005b34                __floatdisf
+                0x0000000008005b34                __aeabi_l2f
+ .text          0x0000000008005bb0      0x2a0 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+                0x0000000008005bb0                __mulsf3
+                0x0000000008005bb0                __aeabi_fmul
+                0x0000000008005d18                __divsf3
+                0x0000000008005d18                __aeabi_fdiv
+ .text          0x0000000008005e50       0x2c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_unordsf2.o)
+                0x0000000008005e50                __aeabi_fcmpun
+                0x0000000008005e50                __unordsf2
+ .text          0x0000000008005e7c       0x40 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
+                0x0000000008005e7c                __aeabi_f2uiz
+                0x0000000008005e7c                __fixunssfsi
+ .text.__errno  0x0000000008005ebc        0xc /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-errno.o)
+                0x0000000008005ebc                __errno
  .text.__locale_ctype_ptr
-                0x0000000008005eb8       0x1c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-locale.o)
-                0x0000000008005eb8                __locale_ctype_ptr
+                0x0000000008005ec8       0x1c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-locale.o)
+                0x0000000008005ec8                __locale_ctype_ptr
  .text.__retarget_lock_acquire_recursive
-                0x0000000008005ed4        0x4 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lock.o)
-                0x0000000008005ed4                __retarget_lock_acquire_recursive
+                0x0000000008005ee4        0x4 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lock.o)
+                0x0000000008005ee4                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0000000008005ed8        0x4 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lock.o)
-                0x0000000008005ed8                __retarget_lock_release_recursive
+                0x0000000008005ee8        0x4 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lock.o)
+                0x0000000008005ee8                __retarget_lock_release_recursive
  .text._malloc_r
-                0x0000000008005edc      0x524 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mallocr.o)
-                0x0000000008005edc                _malloc_r
+                0x0000000008005eec      0x524 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mallocr.o)
+                0x0000000008005eec                _malloc_r
  .text.__ascii_mbtowc
-                0x0000000008006400       0x2c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mbtowc_r.o)
-                0x0000000008006400                __ascii_mbtowc
- .text          0x000000000800642c       0xec /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memcpy.o)
-                0x000000000800642c                memcpy
- .text.memset   0x0000000008006518       0x94 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memset.o)
-                0x0000000008006518                memset
+                0x0000000008006410       0x2c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mbtowc_r.o)
+                0x0000000008006410                __ascii_mbtowc
+ .text          0x000000000800643c       0xec /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memcpy.o)
+                0x000000000800643c                memcpy
+ .text.memset   0x0000000008006528       0x94 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memset.o)
+                0x0000000008006528                memset
  .text.__malloc_lock
-                0x00000000080065ac        0xc /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mlock.o)
-                0x00000000080065ac                __malloc_lock
+                0x00000000080065bc        0xc /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mlock.o)
+                0x00000000080065bc                __malloc_lock
  .text.__malloc_unlock
-                0x00000000080065b8        0xc /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mlock.o)
-                0x00000000080065b8                __malloc_unlock
- .text._sbrk_r  0x00000000080065c4       0x24 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-sbrkr.o)
-                0x00000000080065c4                _sbrk_r
- .text          0x00000000080065e8      0x1bc /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-strcmp.o)
-                0x00000000080065e8                strcmp
- .text.strlen   0x00000000080067a4       0x5c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-strlen-stub.o)
-                0x00000000080067a4                strlen
+                0x00000000080065c8        0xc /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mlock.o)
+                0x00000000080065c8                __malloc_unlock
+ .text._sbrk_r  0x00000000080065d4       0x24 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-sbrkr.o)
+                0x00000000080065d4                _sbrk_r
+ .text          0x00000000080065f8      0x1bc /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-strcmp.o)
+                0x00000000080065f8                strcmp
+ .text.strlen   0x00000000080067b4       0x5c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-strlen-stub.o)
+                0x00000000080067b4                strlen
  .text._vsnprintf_r
-                0x0000000008006800       0x6c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vsnprintf.o)
-                0x0000000008006800                _vsnprintf_r
+                0x0000000008006810       0x6c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vsnprintf.o)
+                0x0000000008006810                _vsnprintf_r
  .text.vsnprintf
-                0x000000000800686c       0x20 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vsnprintf.o)
-                0x000000000800686c                vsnprintf
+                0x000000000800687c       0x20 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vsnprintf.o)
+                0x000000000800687c                vsnprintf
  .text.__ascii_wctomb
-                0x000000000800688c       0x18 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wctomb_r.o)
-                0x000000000800688c                __ascii_wctomb
+                0x000000000800689c       0x18 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wctomb_r.o)
+                0x000000000800689c                __ascii_wctomb
  .text._malloc_trim_r
-                0x00000000080068a4       0xa0 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-freer.o)
-                0x00000000080068a4                _malloc_trim_r
- .text._free_r  0x0000000008006944      0x1e8 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-freer.o)
-                0x0000000008006944                _free_r
+                0x00000000080068b4       0xa0 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-freer.o)
+                0x00000000080068b4                _malloc_trim_r
+ .text._free_r  0x0000000008006954      0x1e8 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-freer.o)
+                0x0000000008006954                _free_r
  .text._svfprintf_r
-                0x0000000008006b2c     0x14ec /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-svfprintf.o)
-                0x0000000008006b2c                _svfprintf_r
- .text.quorem   0x0000000008008018      0x124 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-dtoa.o)
- *fill*         0x000000000800813c        0x4 
- .text._dtoa_r  0x0000000008008140      0xe30 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-dtoa.o)
-                0x0000000008008140                _dtoa_r
+                0x0000000008006b3c     0x14ec /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-svfprintf.o)
+                0x0000000008006b3c                _svfprintf_r
+ .text.quorem   0x0000000008008028      0x124 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-dtoa.o)
+ *fill*         0x000000000800814c        0x4 
+ .text._dtoa_r  0x0000000008008150      0xe30 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-dtoa.o)
+                0x0000000008008150                _dtoa_r
  .text._localeconv_r
-                0x0000000008008f70       0x1c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-localeconv.o)
-                0x0000000008008f70                _localeconv_r
- .text.memchr   0x0000000008008f8c       0x8c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memchr-stub.o)
-                0x0000000008008f8c                memchr
- .text._Balloc  0x0000000008009018       0x4c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x0000000008009018                _Balloc
- .text._Bfree   0x0000000008009064       0x14 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x0000000008009064                _Bfree
+                0x0000000008008f80       0x1c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-localeconv.o)
+                0x0000000008008f80                _localeconv_r
+ .text.memchr   0x0000000008008f9c       0x8c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memchr-stub.o)
+                0x0000000008008f9c                memchr
+ .text._Balloc  0x0000000008009028       0x4c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x0000000008009028                _Balloc
+ .text._Bfree   0x0000000008009074       0x14 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x0000000008009074                _Bfree
  .text.__multadd
-                0x0000000008009078       0x84 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x0000000008009078                __multadd
+                0x0000000008009088       0x84 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x0000000008009088                __multadd
  .text.__hi0bits
-                0x00000000080090fc       0x40 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x00000000080090fc                __hi0bits
+                0x000000000800910c       0x40 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x000000000800910c                __hi0bits
  .text.__lo0bits
-                0x000000000800913c       0x60 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x000000000800913c                __lo0bits
- .text.__i2b    0x000000000800919c       0x14 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x000000000800919c                __i2b
+                0x000000000800914c       0x60 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x000000000800914c                __lo0bits
+ .text.__i2b    0x00000000080091ac       0x14 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x00000000080091ac                __i2b
  .text.__multiply
-                0x00000000080091b0      0x14c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x00000000080091b0                __multiply
+                0x00000000080091c0      0x14c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x00000000080091c0                __multiply
  .text.__pow5mult
-                0x00000000080092fc       0xa0 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x00000000080092fc                __pow5mult
+                0x000000000800930c       0xa0 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x000000000800930c                __pow5mult
  .text.__lshift
-                0x000000000800939c       0xb4 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x000000000800939c                __lshift
- .text.__mcmp   0x0000000008009450       0x38 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x0000000008009450                __mcmp
- .text.__mdiff  0x0000000008009488      0x100 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x0000000008009488                __mdiff
- .text.__d2b    0x0000000008009588       0xb0 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x0000000008009588                __d2b
+                0x00000000080093ac       0xb4 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x00000000080093ac                __lshift
+ .text.__mcmp   0x0000000008009460       0x38 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x0000000008009460                __mcmp
+ .text.__mdiff  0x0000000008009498      0x100 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x0000000008009498                __mdiff
+ .text.__d2b    0x0000000008009598       0xb0 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x0000000008009598                __d2b
  .text.__ssprint_r
-                0x0000000008009638       0xf4 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-svfiprintf.o)
-                0x0000000008009638                __ssprint_r
+                0x0000000008009648       0xf4 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-svfiprintf.o)
+                0x0000000008009648                __ssprint_r
  .text._calloc_r
-                0x000000000800972c       0x6c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-callocr.o)
-                0x000000000800972c                _calloc_r
- .text.memmove  0x0000000008009798       0xc4 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memmove.o)
-                0x0000000008009798                memmove
+                0x000000000800973c       0x6c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-callocr.o)
+                0x000000000800973c                _calloc_r
+ .text.memmove  0x00000000080097a8       0xc4 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memmove.o)
+                0x00000000080097a8                memmove
  .text._realloc_r
-                0x000000000800985c      0x374 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-reallocr.o)
-                0x000000000800985c                _realloc_r
- .text          0x0000000008009bd0       0x2c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_unorddf2.o)
-                0x0000000008009bd0                __aeabi_dcmpun
-                0x0000000008009bd0                __unorddf2
- .text          0x0000000008009bfc       0x50 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
-                0x0000000008009bfc                __fixdfsi
-                0x0000000008009bfc                __aeabi_d2iz
- .text          0x0000000008009c4c       0x30 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_aeabi_uldivmod.o)
-                0x0000000008009c4c                __aeabi_uldivmod
- .text          0x0000000008009c7c      0x2d0 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
-                0x0000000008009c7c                __udivmoddi4
- .text          0x0000000008009f4c        0x4 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_dvmd_tls.o)
-                0x0000000008009f4c                __aeabi_ldiv0
-                0x0000000008009f4c                __aeabi_idiv0
+                0x000000000800986c      0x374 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-reallocr.o)
+                0x000000000800986c                _realloc_r
+ .text          0x0000000008009be0       0x2c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_unorddf2.o)
+                0x0000000008009be0                __aeabi_dcmpun
+                0x0000000008009be0                __unorddf2
+ .text          0x0000000008009c0c       0x50 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
+                0x0000000008009c0c                __fixdfsi
+                0x0000000008009c0c                __aeabi_d2iz
+ .text          0x0000000008009c5c       0x30 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000008009c5c                __aeabi_uldivmod
+ .text          0x0000000008009c8c      0x2d0 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
+                0x0000000008009c8c                __udivmoddi4
+ .text          0x0000000008009f5c        0x4 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_dvmd_tls.o)
+                0x0000000008009f5c                __aeabi_ldiv0
+                0x0000000008009f5c                __aeabi_idiv0
  *(.rodata .rodata.* .constdata .constdata.*)
  .rodata.Virtual_Com_Port_ConfigDescriptor
-                0x0000000008009f50       0x43 ./vcp/src/usb_desc.o
-                0x0000000008009f50                Virtual_Com_Port_ConfigDescriptor
+                0x0000000008009f60       0x43 ./vcp/src/usb_desc.o
+                0x0000000008009f60                Virtual_Com_Port_ConfigDescriptor
  .rodata.Virtual_Com_Port_DeviceDescriptor
-                0x0000000008009f93       0x12 ./vcp/src/usb_desc.o
-                0x0000000008009f93                Virtual_Com_Port_DeviceDescriptor
+                0x0000000008009fa3       0x12 ./vcp/src/usb_desc.o
+                0x0000000008009fa3                Virtual_Com_Port_DeviceDescriptor
  .rodata.Virtual_Com_Port_StringLangID
-                0x0000000008009fa5        0x4 ./vcp/src/usb_desc.o
-                0x0000000008009fa5                Virtual_Com_Port_StringLangID
+                0x0000000008009fb5        0x4 ./vcp/src/usb_desc.o
+                0x0000000008009fb5                Virtual_Com_Port_StringLangID
  .rodata.Virtual_Com_Port_StringProduct
-                0x0000000008009fa9       0x32 ./vcp/src/usb_desc.o
-                0x0000000008009fa9                Virtual_Com_Port_StringProduct
+                0x0000000008009fb9       0x32 ./vcp/src/usb_desc.o
+                0x0000000008009fb9                Virtual_Com_Port_StringProduct
  .rodata.Virtual_Com_Port_StringVendor
-                0x0000000008009fdb       0x26 ./vcp/src/usb_desc.o
-                0x0000000008009fdb                Virtual_Com_Port_StringVendor
+                0x0000000008009feb       0x26 ./vcp/src/usb_desc.o
+                0x0000000008009feb                Virtual_Com_Port_StringVendor
  .rodata.initialise_monitor_handles.str1.1
-                0x000000000800a001        0x4 ./system/src/newlib/_syscalls.o
+                0x000000000800a011        0x4 ./system/src/newlib/_syscalls.o
  .rodata.isSemihosting.str1.1
-                0x000000000800a005        0x4 ./system/src/cortexm/exception_handlers.o
- *fill*         0x000000000800a005        0x3 
+                0x000000000800a015        0x4 ./system/src/cortexm/exception_handlers.o
+ *fill*         0x000000000800a015        0x3 
  .rodata.FONT_12X16
-                0x000000000800a008       0x14 ./src/font12x16_reduced.o
-                0x000000000800a008                FONT_12X16
+                0x000000000800a018       0x14 ./src/font12x16_reduced.o
+                0x000000000800a018                FONT_12X16
  .rodata.font_12x16
-                0x000000000800a01c      0x400 ./src/font12x16_reduced.o
-                0x000000000800a01c                font_12x16
+                0x000000000800a02c      0x400 ./src/font12x16_reduced.o
+                0x000000000800a02c                font_12x16
  .rodata.str1.1
-                0x000000000800a41c      0xd86 ./src/icons.o
- *fill*         0x000000000800b1a2        0x2 
+                0x000000000800a42c      0xd86 ./src/icons.o
+ *fill*         0x000000000800b1b2        0x2 
  .rodata.kaseikyo_param
-                0x000000000800b1a4       0x44 ./src/irmp.o
+                0x000000000800b1b4       0x44 ./src/irmp.o
  .rodata.nec_param
-                0x000000000800b1e8       0x44 ./src/irmp.o
+                0x000000000800b1f8       0x44 ./src/irmp.o
  .rodata.nec_rep_param
-                0x000000000800b22c       0x44 ./src/irmp.o
+                0x000000000800b23c       0x44 ./src/irmp.o
  .rodata.samsung_param
-                0x000000000800b270       0x44 ./src/irmp.o
+                0x000000000800b280       0x44 ./src/irmp.o
  .rodata.samsungah_param
-                0x000000000800b2b4       0x44 ./src/irmp.o
+                0x000000000800b2c4       0x44 ./src/irmp.o
  .rodata.sircs_param
-                0x000000000800b2f8       0x44 ./src/irmp.o
+                0x000000000800b308       0x44 ./src/irmp.o
  .rodata._ZTVN11ArduinoJson16StaticJsonBufferILj512EEE
-                0x000000000800b33c        0xc ./src/json.o
-                0x000000000800b33c                vtable for ArduinoJson::StaticJsonBuffer<512u>
+                0x000000000800b34c        0xc ./src/json.o
+                0x000000000800b34c                vtable for ArduinoJson::StaticJsonBuffer<512u>
  .rodata._Z12json_processPc.str1.1
-                0x000000000800b348       0x8c ./src/json.o
+                0x000000000800b358       0x8c ./src/json.o
                                          0x8d (size before relaxing)
  .rodata._ZN11ArduinoJson9Internals10JsonParserINS0_17CharPointerTraitsIcE6ReaderENS0_12StringWriterIcEEE11parseStringEv.str1.1
-                0x000000000800b3d4        0xf ./src/json.o
+                0x000000000800b3e4        0xf ./src/json.o
  .rodata._ZNK11ArduinoJson10JsonObject8get_implIPKcS3_EENS_9Internals13JsonVariantAsIT0_E4typeET_.str1.1
-                0x000000000800b3e3        0x5 ./src/json.o
- .rodata        0x000000000800b3e8       0x54 ./src/main.o
+                0x000000000800b3f3        0x5 ./src/json.o
+ .rodata        0x000000000800b3f8       0x54 ./src/main.o
  .rodata.main.str1.1
-                0x000000000800b43c       0x4f ./src/main.o
+                0x000000000800b44c       0x4f ./src/main.o
                                          0x54 (size before relaxing)
- .rodata        0x000000000800b48b        0xc ./src/rtc.o
- *fill*         0x000000000800b497        0x1 
+ .rodata        0x000000000800b49b        0xc ./src/rtc.o
+ *fill*         0x000000000800b4a7        0x1 
  .rodata.pal_window
-                0x000000000800b498       0x30 ./src/ugui.o
-                0x000000000800b498                pal_window
+                0x000000000800b4a8       0x30 ./src/ugui.o
+                0x000000000800b4a8                pal_window
  .rodata._Z11usb_processv.str1.1
-                0x000000000800b4c8        0x6 ./src/usb.o
- *fill*         0x000000000800b4ce        0x2 
+                0x000000000800b4d8        0x6 ./src/usb.o
+ *fill*         0x000000000800b4de        0x2 
  .rodata.__logf_data
-                0x000000000800b4d0      0x120 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-sf_log_data.o)
-                0x000000000800b4d0                __logf_data
+                0x000000000800b4e0      0x120 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-sf_log_data.o)
+                0x000000000800b4e0                __logf_data
  .rodata.__powf_log2_data
-                0x000000000800b5f0      0x128 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-sf_pow_log2_data.o)
-                0x000000000800b5f0                __powf_log2_data
+                0x000000000800b600      0x128 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-sf_pow_log2_data.o)
+                0x000000000800b600                __powf_log2_data
  .rodata.__exp2f_data
-                0x000000000800b718      0x148 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-sf_exp2_data.o)
-                0x000000000800b718                __exp2f_data
+                0x000000000800b728      0x148 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-sf_exp2_data.o)
+                0x000000000800b728                __exp2f_data
  .rodata._setlocale_r.str1.4
-                0x000000000800b860        0xa /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-locale.o)
+                0x000000000800b870        0xa /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-locale.o)
                                           0xd (size before relaxing)
- *fill*         0x000000000800b86a        0x2 
+ *fill*         0x000000000800b87a        0x2 
  .rodata.str1.4
-                0x000000000800b86c        0x2 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-locale.o)
- *fill*         0x000000000800b86e        0x2 
+                0x000000000800b87c        0x2 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-locale.o)
+ *fill*         0x000000000800b87e        0x2 
  .rodata._ctype_
-                0x000000000800b870      0x101 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-ctype_.o)
-                0x000000000800b870                _ctype_
- *fill*         0x000000000800b971        0x3 
+                0x000000000800b880      0x101 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-ctype_.o)
+                0x000000000800b880                _ctype_
+ *fill*         0x000000000800b981        0x3 
  .rodata._svfprintf_r.str1.4
-                0x000000000800b974       0x42 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-svfprintf.o)
- *fill*         0x000000000800b9b6        0x2 
+                0x000000000800b984       0x42 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-svfprintf.o)
+ *fill*         0x000000000800b9c6        0x2 
  .rodata.blanks.7276
-                0x000000000800b9b8       0x10 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-svfprintf.o)
- .rodata.zeroes.7277
                 0x000000000800b9c8       0x10 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-svfprintf.o)
+ .rodata.zeroes.7277
+                0x000000000800b9d8       0x10 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-svfprintf.o)
  .rodata._dtoa_r.str1.4
-                0x000000000800b9d8       0x10 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-dtoa.o)
+                0x000000000800b9e8       0x10 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-dtoa.o)
                                          0x12 (size before relaxing)
  .rodata.__mprec_bigtens
-                0x000000000800b9e8       0x28 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x000000000800b9e8                __mprec_bigtens
+                0x000000000800b9f8       0x28 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x000000000800b9f8                __mprec_bigtens
  .rodata.__mprec_tens
-                0x000000000800ba10       0xc8 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x000000000800ba10                __mprec_tens
+                0x000000000800ba20       0xc8 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x000000000800ba20                __mprec_tens
  .rodata.p05.6092
-                0x000000000800bad8        0xc /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x000000000800bae8        0xc /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
  *(vtable)
  *(.eh_frame*)
  *(.glue_7)
- .glue_7        0x000000000800bae4        0x0 linker stubs
+ .glue_7        0x000000000800baf4        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x000000000800bae4        0x0 linker stubs
+ .glue_7t       0x000000000800baf4        0x0 linker stubs
 
-.vfp11_veneer   0x000000000800bae4        0x0
- .vfp11_veneer  0x000000000800bae4        0x0 linker stubs
+.vfp11_veneer   0x000000000800baf4        0x0
+ .vfp11_veneer  0x000000000800baf4        0x0 linker stubs
 
-.v4_bx          0x000000000800bae4        0x0
- .v4_bx         0x000000000800bae4        0x0 linker stubs
+.v4_bx          0x000000000800baf4        0x0
+ .v4_bx         0x000000000800baf4        0x0 linker stubs
 
-.iplt           0x000000000800bae4        0x0
- .iplt          0x000000000800bae4        0x0 ./vcp/src/hw_config.o
+.iplt           0x000000000800baf4        0x0
+ .iplt          0x000000000800baf4        0x0 ./vcp/src/hw_config.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000000000800bae4                . = ALIGN (0x4)
-                0x000000000800bae4                __exidx_start = .
+                0x000000000800baf4                . = ALIGN (0x4)
+                0x000000000800baf4                __exidx_start = .
 
-.ARM.exidx      0x000000000800bae4        0x8
+.ARM.exidx      0x000000000800baf4        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x000000000800bae4        0x8 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
-                0x000000000800baec                __exidx_end = .
+ .ARM.exidx     0x000000000800baf4        0x8 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
+                0x000000000800bafc                __exidx_end = .
 
-.rel.dyn        0x000000000800baec        0x0
- .rel.iplt      0x000000000800baec        0x0 ./vcp/src/hw_config.o
-                0x000000000800baec                . = ALIGN (0x4)
-                0x000000000800baec                _etext = .
-                0x000000000800baec                __etext = .
+.rel.dyn        0x000000000800bafc        0x0
+ .rel.iplt      0x000000000800bafc        0x0 ./vcp/src/hw_config.o
+                0x000000000800bafc                . = ALIGN (0x4)
+                0x000000000800bafc                _etext = .
+                0x000000000800bafc                __etext = .
 
-.data_CCMRAM    0x0000000000000000        0x0 load address 0x000000000800baec
+.data_CCMRAM    0x0000000000000000        0x0 load address 0x000000000800bafc
  FILL mask 0xff
  *(.data.CCMRAM .data.CCMRAM.*)
                 0x0000000000000000                . = ALIGN (0x4)
-                0x000000000800baec                _sidata = LOADADDR (.data)
+                0x000000000800bafc                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000     0x1034 load address 0x000000000800baec
+.data           0x0000000020000000     0x1034 load address 0x000000000800bafc
  FILL mask 0xff
                 0x0000000020000000                _sdata = .
                 0x0000000020000000                __data_start__ = .
@@ -2734,7 +2734,7 @@ END GROUP
                 0x0000000020001034                _edata = .
                 0x0000000020001034                __data_end__ = .
 
-.igot.plt       0x0000000020001034        0x0 load address 0x000000000800cb20
+.igot.plt       0x0000000020001034        0x0 load address 0x000000000800cb30
  .igot.plt      0x0000000020001034        0x0 ./vcp/src/hw_config.o
 
 .bss_CCMRAM     0x0000000000000000        0x0
@@ -3328,7 +3328,7 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000    0x25f6b
+.debug_info     0x0000000000000000    0x25f8f
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000      0xdf0 ./vcp/src/hw_config.o
  .debug_info    0x0000000000000df0      0x4db ./vcp/src/stm32_it.o
@@ -3361,18 +3361,18 @@ END GROUP
  .debug_info    0x000000000000e696      0xf66 ./src/irmp.o
  .debug_info    0x000000000000f5fc     0x78cd ./src/json.o
  .debug_info    0x0000000000016ec9     0x1249 ./src/lcd64x32.o
- .debug_info    0x0000000000018112     0x2c9d ./src/main.o
- .debug_info    0x000000000001adaf      0x35d ./src/rotenc.o
- .debug_info    0x000000000001b10c      0xa4a ./src/rtc.o
- .debug_info    0x000000000001bb56      0xefe ./src/tim.o
- .debug_info    0x000000000001ca54     0x4da9 ./src/ugui.o
- .debug_info    0x00000000000217fd     0x1232 ./src/usb.o
- .debug_info    0x0000000000022a2f      0xe99 ./STM32_USB-FS-Device_Driver/src/usb_core.o
- .debug_info    0x00000000000238c8      0x509 ./STM32_USB-FS-Device_Driver/src/usb_init.o
- .debug_info    0x0000000000023dd1      0x5bd ./STM32_USB-FS-Device_Driver/src/usb_int.o
- .debug_info    0x000000000002438e      0x5a0 ./STM32_USB-FS-Device_Driver/src/usb_mem.o
- .debug_info    0x000000000002492e     0x1032 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
- .debug_info    0x0000000000025960      0x60b ./STM32_USB-FS-Device_Driver/src/usb_sil.o
+ .debug_info    0x0000000000018112     0x2cc1 ./src/main.o
+ .debug_info    0x000000000001add3      0x35d ./src/rotenc.o
+ .debug_info    0x000000000001b130      0xa4a ./src/rtc.o
+ .debug_info    0x000000000001bb7a      0xefe ./src/tim.o
+ .debug_info    0x000000000001ca78     0x4da9 ./src/ugui.o
+ .debug_info    0x0000000000021821     0x1232 ./src/usb.o
+ .debug_info    0x0000000000022a53      0xe99 ./STM32_USB-FS-Device_Driver/src/usb_core.o
+ .debug_info    0x00000000000238ec      0x509 ./STM32_USB-FS-Device_Driver/src/usb_init.o
+ .debug_info    0x0000000000023df5      0x5bd ./STM32_USB-FS-Device_Driver/src/usb_int.o
+ .debug_info    0x00000000000243b2      0x5a0 ./STM32_USB-FS-Device_Driver/src/usb_mem.o
+ .debug_info    0x0000000000024952     0x1032 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .debug_info    0x0000000000025984      0x60b ./STM32_USB-FS-Device_Driver/src/usb_sil.o
 
 .debug_abbrev   0x0000000000000000     0x623e
  *(.debug_abbrev)
@@ -3420,7 +3420,7 @@ END GROUP
  .debug_abbrev  0x0000000000005e00      0x2a9 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
  .debug_abbrev  0x00000000000060a9      0x195 ./STM32_USB-FS-Device_Driver/src/usb_sil.o
 
-.debug_line     0x0000000000000000     0xa1a6
+.debug_line     0x0000000000000000     0xa1b5
  *(.debug_line)
  .debug_line    0x0000000000000000      0x395 ./vcp/src/hw_config.o
  .debug_line    0x0000000000000395      0x217 ./vcp/src/stm32_it.o
@@ -3453,18 +3453,18 @@ END GROUP
  .debug_line    0x0000000000004cb6      0x54f ./src/irmp.o
  .debug_line    0x0000000000005205      0xfc9 ./src/json.o
  .debug_line    0x00000000000061ce      0x380 ./src/lcd64x32.o
- .debug_line    0x000000000000654e      0x71f ./src/main.o
- .debug_line    0x0000000000006c6d      0x1f0 ./src/rotenc.o
- .debug_line    0x0000000000006e5d      0x3be ./src/rtc.o
- .debug_line    0x000000000000721b      0x255 ./src/tim.o
- .debug_line    0x0000000000007470     0x15f7 ./src/ugui.o
- .debug_line    0x0000000000008a67      0x3d2 ./src/usb.o
- .debug_line    0x0000000000008e39      0x509 ./STM32_USB-FS-Device_Driver/src/usb_core.o
- .debug_line    0x0000000000009342      0x1e5 ./STM32_USB-FS-Device_Driver/src/usb_init.o
- .debug_line    0x0000000000009527      0x23c ./STM32_USB-FS-Device_Driver/src/usb_int.o
- .debug_line    0x0000000000009763      0x21e ./STM32_USB-FS-Device_Driver/src/usb_mem.o
- .debug_line    0x0000000000009981      0x60b ./STM32_USB-FS-Device_Driver/src/usb_regs.o
- .debug_line    0x0000000000009f8c      0x21a ./STM32_USB-FS-Device_Driver/src/usb_sil.o
+ .debug_line    0x000000000000654e      0x72e ./src/main.o
+ .debug_line    0x0000000000006c7c      0x1f0 ./src/rotenc.o
+ .debug_line    0x0000000000006e6c      0x3be ./src/rtc.o
+ .debug_line    0x000000000000722a      0x255 ./src/tim.o
+ .debug_line    0x000000000000747f     0x15f7 ./src/ugui.o
+ .debug_line    0x0000000000008a76      0x3d2 ./src/usb.o
+ .debug_line    0x0000000000008e48      0x509 ./STM32_USB-FS-Device_Driver/src/usb_core.o
+ .debug_line    0x0000000000009351      0x1e5 ./STM32_USB-FS-Device_Driver/src/usb_init.o
+ .debug_line    0x0000000000009536      0x23c ./STM32_USB-FS-Device_Driver/src/usb_int.o
+ .debug_line    0x0000000000009772      0x21e ./STM32_USB-FS-Device_Driver/src/usb_mem.o
+ .debug_line    0x0000000000009990      0x60b ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .debug_line    0x0000000000009f9b      0x21a ./STM32_USB-FS-Device_Driver/src/usb_sil.o
 
 .debug_frame    0x0000000000000000     0x4390
  *(.debug_frame)
@@ -3545,7 +3545,7 @@ END GROUP
  .debug_frame   0x0000000000004330       0x2c /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_aeabi_uldivmod.o)
  .debug_frame   0x000000000000435c       0x34 /home/ne23kaj2/programme/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
 
-.debug_str      0x0000000000000000     0xc937
+.debug_str      0x0000000000000000     0xc93c
  *(.debug_str)
  .debug_str     0x0000000000000000      0xd36 ./vcp/src/hw_config.o
                                         0xeee (size before relaxing)
@@ -3609,32 +3609,32 @@ END GROUP
                                        0x7180 (size before relaxing)
  .debug_str     0x000000000000aaeb      0x205 ./src/lcd64x32.o
                                         0x966 (size before relaxing)
- .debug_str     0x000000000000acf0      0x5ec ./src/main.o
-                                       0x1495 (size before relaxing)
- .debug_str     0x000000000000b2dc       0x3c ./src/rotenc.o
+ .debug_str     0x000000000000acf0      0x5f1 ./src/main.o
+                                       0x14a1 (size before relaxing)
+ .debug_str     0x000000000000b2e1       0x3c ./src/rotenc.o
                                         0x3b7 (size before relaxing)
- .debug_str     0x000000000000b318      0x14d ./src/rtc.o
+ .debug_str     0x000000000000b31d      0x14d ./src/rtc.o
                                         0x647 (size before relaxing)
- .debug_str     0x000000000000b465       0x83 ./src/tim.o
+ .debug_str     0x000000000000b46a       0x83 ./src/tim.o
                                         0xcc6 (size before relaxing)
- .debug_str     0x000000000000b4e8      0xb3f ./src/ugui.o
+ .debug_str     0x000000000000b4ed      0xb3f ./src/ugui.o
                                         0xfad (size before relaxing)
- .debug_str     0x000000000000c027       0x9c ./src/usb.o
+ .debug_str     0x000000000000c02c       0x9c ./src/usb.o
                                         0xdd9 (size before relaxing)
- .debug_str     0x000000000000c0c3      0x437 ./STM32_USB-FS-Device_Driver/src/usb_core.o
+ .debug_str     0x000000000000c0c8      0x437 ./STM32_USB-FS-Device_Driver/src/usb_core.o
                                         0xbb4 (size before relaxing)
- .debug_str     0x000000000000c4fa       0x2d ./STM32_USB-FS-Device_Driver/src/usb_init.o
+ .debug_str     0x000000000000c4ff       0x2d ./STM32_USB-FS-Device_Driver/src/usb_init.o
                                         0x60b (size before relaxing)
- .debug_str     0x000000000000c527       0x3a ./STM32_USB-FS-Device_Driver/src/usb_int.o
+ .debug_str     0x000000000000c52c       0x3a ./STM32_USB-FS-Device_Driver/src/usb_int.o
                                         0x65c (size before relaxing)
- .debug_str     0x000000000000c561       0x5c ./STM32_USB-FS-Device_Driver/src/usb_mem.o
+ .debug_str     0x000000000000c566       0x5c ./STM32_USB-FS-Device_Driver/src/usb_mem.o
                                         0x659 (size before relaxing)
- .debug_str     0x000000000000c5bd      0x305 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .debug_str     0x000000000000c5c2      0x305 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
                                         0x9e1 (size before relaxing)
- .debug_str     0x000000000000c8c2       0x75 ./STM32_USB-FS-Device_Driver/src/usb_sil.o
+ .debug_str     0x000000000000c8c7       0x75 ./STM32_USB-FS-Device_Driver/src/usb_sil.o
                                         0x6b1 (size before relaxing)
 
-.debug_loc      0x0000000000000000     0xe587
+.debug_loc      0x0000000000000000     0xe5a3
  *(.debug_loc)
  .debug_loc     0x0000000000000000      0x184 ./vcp/src/hw_config.o
  .debug_loc     0x0000000000000184       0x42 ./vcp/src/usb_istr.o
@@ -3658,16 +3658,16 @@ END GROUP
  .debug_loc     0x0000000000004c4c      0x21c ./src/irmp.o
  .debug_loc     0x0000000000004e68      0xf53 ./src/json.o
  .debug_loc     0x0000000000005dbb      0x53b ./src/lcd64x32.o
- .debug_loc     0x00000000000062f6      0x8be ./src/main.o
- .debug_loc     0x0000000000006bb4       0x60 ./src/rotenc.o
- .debug_loc     0x0000000000006c14      0x5e3 ./src/rtc.o
- .debug_loc     0x00000000000071f7     0x5a10 ./src/ugui.o
- .debug_loc     0x000000000000cc07      0x152 ./src/usb.o
- .debug_loc     0x000000000000cd59      0x9ed ./STM32_USB-FS-Device_Driver/src/usb_core.o
- .debug_loc     0x000000000000d746       0x7d ./STM32_USB-FS-Device_Driver/src/usb_int.o
- .debug_loc     0x000000000000d7c3      0x21e ./STM32_USB-FS-Device_Driver/src/usb_mem.o
- .debug_loc     0x000000000000d9e1      0xad7 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
- .debug_loc     0x000000000000e4b8       0xcf ./STM32_USB-FS-Device_Driver/src/usb_sil.o
+ .debug_loc     0x00000000000062f6      0x8da ./src/main.o
+ .debug_loc     0x0000000000006bd0       0x60 ./src/rotenc.o
+ .debug_loc     0x0000000000006c30      0x5e3 ./src/rtc.o
+ .debug_loc     0x0000000000007213     0x5a10 ./src/ugui.o
+ .debug_loc     0x000000000000cc23      0x152 ./src/usb.o
+ .debug_loc     0x000000000000cd75      0x9ed ./STM32_USB-FS-Device_Driver/src/usb_core.o
+ .debug_loc     0x000000000000d762       0x7d ./STM32_USB-FS-Device_Driver/src/usb_int.o
+ .debug_loc     0x000000000000d7df      0x21e ./STM32_USB-FS-Device_Driver/src/usb_mem.o
+ .debug_loc     0x000000000000d9fd      0xad7 ./STM32_USB-FS-Device_Driver/src/usb_regs.o
+ .debug_loc     0x000000000000e4d4       0xcf ./STM32_USB-FS-Device_Driver/src/usb_sil.o
 
 .debug_macinfo
  *(.debug_macinfo)

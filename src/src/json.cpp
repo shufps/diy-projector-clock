@@ -50,7 +50,8 @@ void add(const char* format, ...) {
 	va_end(args);
 }
 
-static char dayNames[][12] = { "Mo", "Di", "Mi", "Do", "Fr", "Sa", "So" };
+//static char dayNames[][12] = { "Mo", "Di", "Mi", "Do", "Fr", "Sa", "So" };
+static char dayNames[][12] = { "H", "K", "Sze", "Cs", "P", "Szo", "V" };
 
 uint8_t json_process(char* rxbuf) {
 	StaticJsonBuffer<512> jsonIn;
