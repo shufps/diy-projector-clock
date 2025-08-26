@@ -111,5 +111,7 @@ GitHub-Repository contains:
 – 3D-STL-Files
 – Images
 
+Thingiverse: https://www.thingiverse.com/thing:2887852
+
 
 Archive of original site: https://web.archive.org/web/20241128173803/https://microengineer.eu/2018/05/01/diy-night-clock-projector/
